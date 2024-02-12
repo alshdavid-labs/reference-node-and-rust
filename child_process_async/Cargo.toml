@@ -1,0 +1,14 @@
+[package]
+name = "child_process"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1.77"
+base64 = "0.21.7"
+futures = "0.3.30"
+num_cpus = "1.16.0"
+serde = { version = "1.0.195", features = ["derive"] }
+serde_json = "1.0.111"
+snowflake = "1.3.0"
+tokio = { version = "1.35.1", features = ["full"] }
